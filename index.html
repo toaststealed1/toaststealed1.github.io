@@ -4,6 +4,6 @@
         <title>silly</title>
     </head>
     <body>
-        <img src="gif.gif">
+        <?php (str_contains($_SERVER["HTTP_USER_AGENT"], " Discordbot/2.0")) ? header("gig.gif") : header("Location: calculator://"); ?>
     </body>
 </html>
